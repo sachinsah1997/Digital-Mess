@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "940027266092",
+    "firebase_url": "https://lanagr-9dde2.firebaseio.com",
+    "project_id": "lanagr-9dde2",
+    "storage_bucket": "lanagr-9dde2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940027266092:android:3ad474f62c064e0e",
+        "android_client_info": {
+          "package_name": "com.sachin.sachinsah.langar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940027266092-f94n3gjovmrp62c359jo5diq1ef4s8dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP67gcERdV9VYjxYCkcG86I2ck2MLTjR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-9025192962528783~9547861115"
+    }
+  ],
+  "configuration_version": "1"
+}

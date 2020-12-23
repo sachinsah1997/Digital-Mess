@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.sachinsah.langar.HomeFragment">
+
+    <ImageView
+        android:id="@+id/msuboys"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/msuboyshostel" />
+
+    <ImageView
+        android:id="@+id/msugirls"
+        android:layout_width="135dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/msugirlshostel" />
+
+    <ImageView
+        android:id="@+id/samrasboys"
+        android:layout_width="135dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="161dp"
+        android:src="@drawable/samrasboyshostel" />
+
+    <ImageView
+        android:id="@+id/samrasgirls"
+        android:layout_width="135dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="154dp"
+        android:src="@drawable/samrasgirls" />
+
+
+    <ImageView
+        android:id="@+id/othermess"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="401dp"
+        android:src="@drawable/othermess" />
+
+
+    <ImageView
+        android:id="@+id/gtuhostel"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="393dp"
+        android:src="@drawable/gtuhostel" />
+
+    <ImageView
+        android:id="@+id/facultycanteen"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="276dp"
+        android:src="@drawable/facultycanteen" />
+
+    <ImageView
+        android:id="@+id/medicalhostel"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/medicalcollege" />
+
+</RelativeLayout>
+

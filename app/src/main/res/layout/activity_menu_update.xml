@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".MenuUpdateFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft ="80dp"
+                android:layout_marginTop ="41dp"
+                android:text="Mess Owner Desk"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/omessname"
+                android:layout_alignStart="@+id/omessname"
+                android:layout_marginBottom="-112dp"
+                android:text="Mess Name"
+                android:textColor="@color/colorAccent"
+                android:layout_alignLeft="@+id/omessname" />
+
+            <EditText
+                android:id="@+id/omessname"
+                android:layout_width="230dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/edittext_background"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ownernumber"
+                android:layout_alignStart="@+id/ownernumber"
+                android:layout_marginBottom="-203dp"
+                android:text="Your number"
+                android:textColor="@color/colorAccent"
+                android:layout_alignLeft="@+id/ownernumber" />
+
+            <EditText
+                android:id="@+id/ownernumber"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="203dp"
+                android:background="@drawable/edittext_background"
+                android:padding="10dp"
+                android:editable="false"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ownernumber"
+                android:layout_alignStart="@+id/ownernumber"
+                android:layout_marginBottom="-290dp"
+                android:text="New Menu"
+                android:textColor="@color/colorAccent"
+                android:layout_alignLeft="@+id/ownernumber" />
+
+            <EditText
+                android:id="@+id/newmenu"
+                android:layout_width="230dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="291dp"
+                android:background="@drawable/edittext_background"
+                android:padding="10dp" />
+
+
+            <Button
+                android:id="@+id/updatemenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="400dp"
+                android:background="@color/colorAccent"
+                android:text="Update Menu"
+                android:textColor="#fff"
+                android:textStyle="bold"
+          />
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

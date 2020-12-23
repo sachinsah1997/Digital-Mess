@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Digital Mess</string>
+    <string name="action_settings">Exit</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+
+    <string name="nav_item_myorder">My Orders</string>
+    <string name="nav_item_invite">Invite friends</string>
+    <string name="nav_item_feedback">Feedback</string>
+    <string name="nav_item_rateus">Rate Us</string>
+    <string name="nav_item_aboutus">About Us</string>
+    <!-- navigation drawer item labels  -->
+
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_myorder</item>
+        <item>@string/nav_item_invite</item>
+        <item>@string/nav_item_feedback</item>
+        <item>@string/nav_item_rateus</item>
+        <item>@string/nav_item_aboutus</item>
+    </string-array>
+
+    <string name="title_aboutus">About Us</string>
+    <string name="title_rateus">Rate Us</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_invite">Invite friends</string>
+    <string name="title_myorder">My Orders</string>
+    <string name="title_home">Home</string>
+
+
+    <string name="title_shop">Home</string>
+    <string name="title_gifts">News Feed</string>
+    <string name="title_cart">My Orders</string>
+    <string name="title_profile">Profile</string>
+
+
+    <string-array name="database">
+        <item>Choose a database</item>
+        <item>msuboyshostel</item>
+        <item>msugirlshostel</item>
+        <item>samrasboyshostel</item>
+        <item>samrasgirlshostel</item>
+        <item>facultycanteen</item>
+        <item>othermess</item>
+        <item>medicalhostel</item>
+        <item>gtuhostel</item>
+    </string-array>
+
+
+    <string-array name="shift">
+        <item>Choose a shift</item>
+        <item>Dinner</item>
+        <item>Lunch</item>
+    </string-array>
+</resources>
